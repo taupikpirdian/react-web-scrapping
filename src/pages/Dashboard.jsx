@@ -8,7 +8,12 @@ function Dashboard() {
 
 const styles = {
   container: {
+    width: '100vw',
+    height: '100vh',
+    margin: 0,
     padding: '20px',
+    boxSizing: 'border-box',
+    overflow: 'hidden',
   },
 }
 
